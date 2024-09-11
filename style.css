@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+.main_box{
+    background: url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.btn_one{
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    line-height: 60px;
+    left: 16px;
+    font-size: 30px;
+}
+
+.sidebar_menu{
+    position: fixed;
+    left: -350;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+
+}
+.sidebar_menu .logo  a{
+    position: absolute;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sidebar_menu .btn_two{
+    color: gray;
+    font-weight: 700;
+    position: absolute;
+    line-height: 60px;
+    left: 180px;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.sidebar_menu .memu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    
+}
+.sidebar_menu .memu li {
+    margin-top: 12px;
+}
